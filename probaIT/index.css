@@ -1,0 +1,697 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 2206px;
+}
+body{
+    width: 1440px;;
+    height: 2206px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wholepage{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.popup{
+    height: 641px;
+    width: 488px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(1.25);
+    opacity: 0;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 0ms ease-in-out 200ms,
+                transform 20ms ease-in-out 200ms;
+    z-index: 20;
+}
+div.popup.active{
+    top: 50%;
+    transform:translate(-50%,-50%) scale(1);
+    opacity: 1;
+    transition: top 0ms ease-in-out 0ms,
+                opacity 0ms ease-in-out 200ms,
+                transform 20ms ease-in-out 200ms;
+}
+div.partea_de_sus{
+    width: 488px;
+    height: 66px;
+    position: absolute;
+}
+#logo_popup{
+    width: 108px;
+    height: 31px;
+    left: 30px;
+    top: 21px;
+    position: absolute;
+}
+#close-btn{
+    width: 25px;
+    height: 25px;
+    top: 21px;
+    left: 427px;
+    position: absolute;
+    cursor:pointer;
+}
+div.partea_de_jos{
+    height: 575px;
+    width: 488px;
+    top: 66px;
+    position: absolute;
+
+    background: #6F3096;
+}
+#dreptunghi_alb{
+    box-sizing: border-box;
+    height: 471px;
+    width: 390px;
+    left: 47px;
+    top: 55px;
+    border-radius: 21px;
+
+    position: absolute;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+div.formlog{
+    width: 100%;
+    height: 100%;
+}
+#titlu{
+    position: absolute;
+    width: 418px;
+    height: 27px;
+    left: 78px;
+    top: 40px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #6F3096;
+}
+#user{
+    position: absolute;
+    width: 106.08px;
+    height: 20px;
+    top: 144px;
+    left: 47px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #252F65;
+}
+#username{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 296px;
+    height: 41px;
+    top: 170px;
+    left: 47px;
+
+    border: 1px solid #252F65;
+    border-radius: 5px;
+}
+#psswd{
+    position: absolute;
+    width: 104.55px;
+    height: 19.71px;
+    top: 227px;
+    left: 47px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #252F65;
+}
+#password{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 296px;
+    height: 41px;
+    left: 47px;
+    top: 252px;
+
+    border: 1px solid #252F65;
+    border-radius: 5px; 
+}
+#btn-logare{
+    position: absolute;
+    height: 45px;
+    width: 218.07679748535156px;
+    border-radius: 5px;
+    left: 140px;
+    top: 391px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    background: #6F3096;
+    border-radius: 5px;
+}
+div.popup1{
+    height: 641px;
+    width: 488px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 0ms ease-in-out 200ms,
+                transform 20ms ease-in-out 200ms;
+    z-index: 20;
+}
+div.popup1.active1{
+    top: 50%;
+    transform:translate(-50%,-50%) scale(1);
+    opacity: 1;
+    transition: top 0ms ease-in-out 0ms,
+                opacity 0ms ease-in-out 200ms,
+                transform 20ms ease-in-out 200ms;
+}
+#logo_popup1{
+    width: 108px;
+    height: 31px;
+    left: 30px;
+    top: 21px;
+    position: absolute;
+}
+#close-btn1{
+    width: 25px;
+    height: 25px;
+    top: 21px;
+    left: 427px;
+    position: absolute;
+    cursor:pointer;
+}
+div.partea_de_jos1{
+    height: 575px;
+    width: 488px;
+    top: 66px;
+    position: absolute;
+
+    background: #6F3096;
+}
+#dreptunghi_alb1{
+    box-sizing: border-box;
+    height: 471px;
+    width: 390px;
+    left: 47px;
+    top: 55px;
+    border-radius: 21px;
+
+    position: absolute;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+div.formlog1{
+    width: 100%;
+    height: 100%;
+}
+#titlu1{
+    position: absolute;
+    width: 418px;
+    height: 27px;
+    left: 120px;
+    top: 20px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #6F3096;
+}
+#user1{
+    position: absolute;
+    width: 106.08px;
+    height: 20px;
+    top: 104px;
+    left: 47px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #252F65;
+}
+#username1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 296px;
+    height: 41px;
+    top: 130px;
+    left: 47px;
+
+    border: 1px solid #252F65;
+    border-radius: 5px;
+}
+#email_creare{
+    position: absolute;
+    width: 106.08px;
+    height: 20px;
+    left: 47px;
+    top: 183px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #252F65;
+}
+#camp_email{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 296px;
+    height: 41px;
+    left: 47px;
+    top: 209px;
+
+    border: 1px solid #252F65;
+    border-radius: 5px;
+}
+#psswd1{
+    position: absolute;
+    width: 104.55px;
+    height: 19.71px;
+    top: 260px;
+    left: 47px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #252F65;
+}
+#password1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 296px;
+    height: 41px;
+    left: 47px;
+    top: 285px;
+
+    border: 1px solid #252F65;
+    border-radius: 5px; 
+}
+#btn-logare1{
+    position: absolute;
+    height: 45px;
+    width: 218.07679748535156px;
+    border-radius: 5px;
+    left: 133px;
+    top: 414px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    background: #6F3096;
+    border-radius: 5px;
+}
+h1.partajare{
+    position: absolute;
+    width: 659px;
+    height: 133px;
+    left: 55px;
+    top: 288px;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 121.1%;
+    text-align: center;
+
+    color: #252F65
+ }
+h2.platforma{
+    position: absolute;
+    width: 535px;
+    height: 53px;
+    left: 104px;
+    top: 406px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #252F65;
+ }
+img.why{
+    position: absolute;
+    width: 647px;
+    height: 647px;
+    left: 694px;
+    top: 78px;
+}
+button.upd1{
+    position: absolute;
+    left: 17.83%;
+    right: 17.48%;
+    top: 30.77%;
+    bottom: 18.46%;
+    
+    height: 65px;
+    width: 286px;
+    left: 228px;
+    top: 479px;
+    border-radius: 5px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #6F3096;
+}
+nav{
+    height: 106px;
+    width: 1440px;
+}
+div.logo{
+    position: absolute;
+    width: 197px;
+    height: 56px;
+    left: 45px;
+    top: 50px;
+}
+#log{
+    position: absolute;
+    height: 25px;
+    width: 68px;
+    left: 1140px;
+    top: 66px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #06114F;
+}
+#creare_cont{
+    position: absolute;
+    height: 25px;
+    width: 112px;
+    border-radius: nullpx;
+
+
+    left: 1229px;
+    top: 66px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #06114F;
+    cursor: pointer;
+}
+#sectiune2{
+    position: absolute;
+    width: 1469px;
+    height: 673px;
+    left: -4px;
+    top: 786px;
+
+    background: #6F3096;
+}
+h1.aitupeu{
+    position: absolute;
+    width: 389px;
+    height: 125px;
+    left: 48px;
+    top: 107px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 121.1%;
+
+    color: #252F65;
+}
+h2.trimite{
+    position: absolute;
+    width: 333px;
+    height: 90px;
+    left: 48px;
+    top: 204px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 121.1%;
+
+    color: #252F65;
+}
+form{
+    position: absolute;
+    width: 945px;
+    height: 458px;
+    left: 246px;
+    top: 111px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.5);
+    border-radius: 21px;
+}
+#descr{
+    position: absolute;
+    width: 103.38px;
+    height: 19.49px;
+    left: 501.4px;
+    top: 75px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #06114F;
+}
+#camp_descr{
+    left: 501.94px;
+    top: 99.88px;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 353.68px;
+    height: 40.42px;
+
+    border: 1px solid #06114F;
+    border-radius: 5px;
+}
+#meme-ul{
+    top: 164.38px;
+    left: 501.15px;
+    position: absolute;
+    width: 246.23px;
+    height: 34.61px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #06114F;
+}
+#drag_drop{
+    position: absolute;
+    width: 288.75px;
+    height: 34.61px;
+
+    left: 524.6px;
+    top: 239.92px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: rgba(6, 17, 79, 0.3);
+}
+#camp_meme-ul{
+    box-sizing: border-box;
+
+    left: 501px;
+    top: 191.33px;
+
+    position: absolute;
+    width: 354.22px;
+    height: 150.84px;
+
+    border: 1px solid #252F65;
+    border-radius: 5px;
+}
+button.upd2{
+    position: absolute;
+    top: 371px;
+    left: 598px;
+    height: 40.42113494873047px;
+    width: 161.46482849121094px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #6F3096;
+    border-radius: 5px;
+}
+h1.most{
+    position: absolute;
+    width: 231px;
+    height: 45px;
+    left: 69px;
+    top: 1500px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #252F65;
+}
+img.meme_1{
+    position: absolute;
+    height: 369px;
+    width: 418px;
+    left: 53px;
+    top: 1633px;
+
+    border-radius: 55px;
+}
+img.meme_2{
+    position: absolute;
+    width: 412px;
+    height: 364px;
+    left: 503px;
+    top: 1634px;
+
+    border-radius: 53px;
+}
+img.meme_3{
+    position: absolute;
+    width: 418px;
+    height: 363px;
+    left: 968px;
+    top: 1635px;
+
+    border-radius: 46px;
+}
+div.sectiune4{
+    position: absolute;
+    width: 1496px;
+    height: 174px;
+    left: -31px;
+    top: 2039px;
+
+    background: #06114F;
+}
+p.copyright{
+    position: absolute;
+    width: 1440px;
+    height: 52px;
+    left: 48px;
+    top: 96px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #FFFFFF  
+}
+a.insta{
+    position: absolute;
+    left: 722.13px;
+    top: 54.67px;
+
+    height: 25.159421920776367px;
+    width: 25.048002243041992px;
+
+    border-radius: 0px;
+}
+a.twitch{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    
+    top: 55px;
+    left: 760px;
+}
+a.face{
+    top: 54.58px;
+    left: 790.77px;
+    position: absolute;
+
+    height: 23.33338165283203px;
+    width: 23.23000144958496px;
+}
