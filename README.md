@@ -13,16 +13,8 @@ This repository contains the files for **MEMEIT?**, a meme-sharing platform deve
   - **JavaScript:**
     - [script.js](assets/js/script.js) – Handles interactivity (pop-ups, buttons, meme uploads)  
   - **Images:**
-    - [logo.png](assets/images/logo.png) – Website logo  
-    - **Memes:**
-      - [meme1.png](assets/images/meme1.png)  
-      - [meme2.png](assets/images/meme2.png)  
-      - [meme3.png](assets/images/meme3.png)  
-    - **Icons:**
-      - [close.png](assets/images/icons/close.png) – Close button icon  
-      - [instagram_icon.png](assets/images/icons/instagram_icon.png) – Instagram icon  
-      - [facebook_icon.png](assets/images/icons/facebook_icon.png) – Facebook icon  
-      - [twitch_icon.png](assets/images/icons/twitch_icon.png) – Twitch icon  
+    - [images/](assets/images/) – Contains all images used in the website (logos, memes)  
+    - [icons/](assets/images/icons/) – Folder containing UI icons (close, social media icons)  
 
 ## 🛠 Features  
 - **User Authentication** – Login and account creation pop-ups  
