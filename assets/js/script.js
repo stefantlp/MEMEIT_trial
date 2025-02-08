@@ -1,0 +1,18 @@
+document.querySelector("#log").addEventListener("click",function(){
+    document.querySelector("div.popup").classList.add("active");
+});
+document.querySelector("#close-btn").addEventListener("click",function(){
+    document.querySelector("div.popup").classList.remove("active");
+});
+document.querySelector("#btn-logare").addEventListener("click",function(){
+    document.querySelector("div.popup").classList.remove("active");
+});
+document.querySelector("#creare_cont").addEventListener("click",function(){
+    document.querySelector("div.popup_cre").classList.add("active_cre");
+});
+document.querySelector("#close-btn_cre").addEventListener("click",function(){
+    document.querySelector("div.popup_cre").classList.remove("active_cre");
+});
+document.querySelector("#btn-creare").addEventListener("click",function(){
+    document.querySelector("div.popup_cre").classList.remove("active_cre");
+});
