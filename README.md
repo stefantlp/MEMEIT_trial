@@ -1,6 +1,6 @@
 # MEMEIT? - University IT Department Entry Test  
 
-This repository contains the files for **MEMEIT?**, a website developed as part of an entry test for the university's IT department. The project is a meme-sharing platform designed for students, featuring user authentication, meme uploads, and a responsive layout.  
+This repository contains the files for **MEMEIT?**, a website developed as part of an entry test for the university's IT department in my first year of studies. The project is a meme-sharing platform designed for students, featuring user authentication, meme uploads, and a responsive layout.  
 
 ## 🛠 Features  
 - **User Authentication**: Login and account creation pop-ups  
